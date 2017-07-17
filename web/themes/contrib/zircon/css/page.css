@@ -67,6 +67,21 @@ nav#main-menu .container-gcio ul.menu {
     nav#main-menu .container-gcio ul.menu li a {
       color: #fff; }
 
+section.top-elements .container {
+  display: flex; }
+
+.top-article {
+  background-color: #f5f5dc;
+  flex: 1; }
+
+.top-video {
+  background-color: #f5f5dc;
+  flex: 1; }
+
+.top-ad {
+  background-color: #f5f5dc;
+  flex: 1; }
+
 .view .views-field {
   margin-bottom: 5px; }
 

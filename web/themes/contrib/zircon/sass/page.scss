@@ -39,6 +39,25 @@
             }
         }
     }
+
+    section.top-elements .container {
+        display: flex;
+    }
+
+    .top-article {
+        background-color: #f5f5dc;
+        flex: 1;
+    }
+
+    .top-video {
+        background-color: #f5f5dc;
+        flex: 1;
+    }
+
+    .top-ad {
+        background-color: #f5f5dc;
+        flex: 1;
+    }
     
     .view {
         .views-field {
