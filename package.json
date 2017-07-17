@@ -1,0 +1,24 @@
+{
+  "name": "gciomag",
+  "version": "1.0.0",
+  "description": "gulp sass to recompile scss files",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeromewiley/magcio.git"
+  },
+  "author": "Jerome Wiley",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jeromewiley/magcio/issues"
+  },
+  "homepage": "https://github.com/jeromewiley/magcio#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0",
+    "gulp-util": "^3.0.8"
+  }
+}
