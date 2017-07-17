@@ -67,12 +67,35 @@ nav#main-menu .container-gcio ul.menu {
     nav#main-menu .container-gcio ul.menu li a {
       color: #fff; }
 
-section.top-elements .container {
-  display: flex; }
+@media all and (min-width: 900px) {
+  section.top-elements .container {
+    display: flex; } }
+
+@media all and (max-width: 899px) {
+  section.top-elements .container {
+    display: block; } }
 
 .top-article {
   background-color: #f5f5dc;
   flex: 1; }
+
+@media all and (min-width: 1200px) {
+  .top-article, .top-video, .top-ad {
+    padding: 10px; }
+  .top-article figure img, .top-video figure img, .top-ad figure img {
+    width: 100%; } }
+
+@media all and (max-width: 1199px) {
+  .top-article, .top-video, .top-ad {
+    padding: 5px; }
+  .top-article figure img, .top-video figure img, .top-ad figure img {
+    width: 100%; } }
+
+@media all and (max-width: 900px) {
+  .top-article, .top-video, .top-ad {
+    margin: 25px; }
+  .top-article figure img, .top-video figure img, .top-ad figure img {
+    width: 100%; } }
 
 .top-video {
   background-color: #f5f5dc;
