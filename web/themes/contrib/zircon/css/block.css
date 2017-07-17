@@ -33,7 +33,8 @@
 
 /* header */
 .site-logo img {
-  width: 120px; }
+  width: 176px;
+  margin: 5px; }
 
 .messages--status {
   margin-bottom: 20px; }

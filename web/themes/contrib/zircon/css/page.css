@@ -41,6 +41,32 @@ ul.links.inline .node-readmore a:before, .views-field-view-node a:before, #comme
 h1.page-title {
   font-size: 2.571em; }
 
+.page .container header#header {
+  display: flex; }
+
+.left-inner {
+  float: left;
+  width: 187px; }
+
+.right-inner {
+  float: left;
+  flex: 1; }
+
+nav#main-menu .container-gcio ul.menu {
+  display: flex;
+  margin-top: 7px;
+  background-color: #000; }
+  nav#main-menu .container-gcio ul.menu li {
+    font-family: 'Exo', sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 22px;
+    text-transform: uppercase;
+    padding: 5px 20px 5px 20px;
+    border-right: 2px #fff dotted; }
+    nav#main-menu .container-gcio ul.menu li a {
+      color: #fff; }
+
 .view .views-field {
   margin-bottom: 5px; }
 

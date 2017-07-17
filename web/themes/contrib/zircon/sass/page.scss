@@ -7,6 +7,38 @@
     h1.page-title {
         font-size: 2.571em;
     }
+
+    .page .container header#header {
+        display: flex;
+    }
+
+    .left-inner {
+        float: left;
+        width: 187px;
+    }
+
+    .right-inner {
+        float: left;
+        flex: 1;
+    }
+
+    nav#main-menu .container-gcio ul.menu {
+        display: flex;
+        margin-top: 7px;
+        background-color: #000;
+        li {
+            font-family: 'Exo', sans-serif;
+            font-weight: 700;
+            font-style: italic;
+            font-size: 22px;
+            text-transform: uppercase;
+            padding: 5px 20px 5px 20px;
+            border-right: 2px #fff dotted;
+            a {
+                color: #fff;
+            }
+        }
+    }
     
     .view {
         .views-field {
