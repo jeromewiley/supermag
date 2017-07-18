@@ -1,5 +1,7 @@
 <div class="page">
 <a name="Top" id="Top"></a>
+<div class="liner-top">
+</div>
 <div class="container">
   <header id="header" class="header" role="header">
     <div class="left-inner">
@@ -80,6 +82,7 @@
     </section>
   {% endif %}    
 
+  {% if is_front %}
   <section id="top-three" class="top-elements">
     <div class="container">
       
@@ -112,6 +115,7 @@
 
     </div>
   </section>
+  {% endif %}
 
   <section id="main" class="main" role="main">
     <a id="main-content"></a>

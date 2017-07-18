@@ -41,6 +41,11 @@ ul.links.inline .node-readmore a:before, .views-field-view-node a:before, #comme
 h1.page-title {
   font-size: 2.571em; }
 
+.liner-top {
+  width: 100%;
+  border-bottom: 4px solid #1b88be;
+  margin-top: 5px; }
+
 .page .container header#header {
   display: flex; }
 
@@ -54,8 +59,10 @@ h1.page-title {
 
 nav#main-menu .container-gcio ul.menu {
   display: flex;
-  margin-top: 7px;
-  background-color: #000; }
+  margin-top: 0px;
+  background-color: #1b88be;
+  border-bottom-left-radius: 1em;
+  border-bottom-right-radius: 2em; }
   nav#main-menu .container-gcio ul.menu li {
     font-family: 'Exo', sans-serif;
     font-weight: 700;
@@ -66,6 +73,10 @@ nav#main-menu .container-gcio ul.menu {
     border-right: 2px #fff dotted; }
     nav#main-menu .container-gcio ul.menu li a {
       color: #fff; }
+
+@media all and (max-width: 991px) {
+  nav#main-menu .container-gcio ul.menu {
+    display: none; } }
 
 @media all and (min-width: 900px) {
   section.top-elements .container {

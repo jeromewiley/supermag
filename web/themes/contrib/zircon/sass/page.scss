@@ -8,6 +8,12 @@
         font-size: 2.571em;
     }
 
+    .liner-top {
+        width: 100%;
+        border-bottom: 4px solid #1b88be;
+        margin-top: 5px;
+    }
+
     .page .container header#header {
         display: flex;
     }
@@ -24,8 +30,10 @@
 
     nav#main-menu .container-gcio ul.menu {
         display: flex;
-        margin-top: 7px;
-        background-color: #000;
+        margin-top: 0px;
+        background-color: #1b88be;
+        border-bottom-left-radius: 1em;
+        border-bottom-right-radius: 2em;
         li {
             font-family: 'Exo', sans-serif;
             font-weight: 700;
@@ -37,6 +45,12 @@
             a {
                 color: #fff;
             }
+        }
+    }
+
+    @media all and (max-width: 991px) {
+        nav#main-menu .container-gcio ul.menu {
+            display: none;
         }
     }
 
