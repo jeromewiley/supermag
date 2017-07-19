@@ -90,11 +90,16 @@ class ComposerStaticInit55fd7e706b28e60241dbd1efa3ecc396
             'Psy\\' => 4,
             'Psr\\Log\\' => 8,
             'Psr\\Http\\Message\\' => 17,
+            'Psr\\Container\\' => 14,
             'PhpParser\\' => 10,
         ),
         'M' => 
         array (
             'Masterminds\\' => 12,
+        ),
+        'I' => 
+        array (
+            'Interop\\Container\\' => 18,
         ),
         'G' => 
         array (
@@ -315,6 +320,10 @@ class ComposerStaticInit55fd7e706b28e60241dbd1efa3ecc396
         array (
             0 => __DIR__ . '/..' . '/psr/http-message/src',
         ),
+        'Psr\\Container\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/psr/container/src',
+        ),
         'PhpParser\\' => 
         array (
             0 => __DIR__ . '/..' . '/nikic/php-parser/lib/PhpParser',
@@ -322,6 +331,10 @@ class ComposerStaticInit55fd7e706b28e60241dbd1efa3ecc396
         'Masterminds\\' => 
         array (
             0 => __DIR__ . '/..' . '/masterminds/html5/src',
+        ),
+        'Interop\\Container\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/container-interop/container-interop/src/Interop/Container',
         ),
         'GuzzleHttp\\Psr7\\' => 
         array (
@@ -415,6 +428,7 @@ class ComposerStaticInit55fd7e706b28e60241dbd1efa3ecc396
         array (
             0 => __DIR__ . '/..' . '/behat/mink-browserkit-driver/src',
             1 => __DIR__ . '/..' . '/behat/mink-goutte-driver/src',
+            2 => __DIR__ . '/..' . '/behat/mink-selenium2-driver/src',
         ),
         'Behat\\Mink\\' => 
         array (
@@ -443,6 +457,13 @@ class ComposerStaticInit55fd7e706b28e60241dbd1efa3ecc396
             'org\\bovigo\\vfs\\' => 
             array (
                 0 => __DIR__ . '/..' . '/mikey179/vfsStream/src/main/php',
+            ),
+        ),
+        'W' => 
+        array (
+            'WebDriver' => 
+            array (
+                0 => __DIR__ . '/..' . '/instaclick/php-webdriver/lib',
             ),
         ),
         'T' => 
@@ -494,6 +515,30 @@ class ComposerStaticInit55fd7e706b28e60241dbd1efa3ecc396
             array (
                 0 => __DIR__ . '/..' . '/drush/drush/lib',
             ),
+            'Drupal\\Tests\\Driver' => 
+            array (
+                0 => __DIR__ . '/..' . '/drupal/drupal-driver/tests',
+            ),
+            'Drupal\\Exception' => 
+            array (
+                0 => __DIR__ . '/..' . '/drupal/drupal-extension/src',
+            ),
+            'Drupal\\DrupalExtension' => 
+            array (
+                0 => __DIR__ . '/..' . '/drupal/drupal-extension/src',
+            ),
+            'Drupal\\Drupal' => 
+            array (
+                0 => __DIR__ . '/..' . '/drupal/drupal-extension/src',
+            ),
+            'Drupal\\Driver' => 
+            array (
+                0 => __DIR__ . '/..' . '/drupal/drupal-driver/src',
+            ),
+            'Drupal\\Component' => 
+            array (
+                0 => __DIR__ . '/..' . '/drupal/drupal-driver/src',
+            ),
             'Doctrine\\Common\\Lexer\\' => 
             array (
                 0 => __DIR__ . '/..' . '/doctrine/lexer/lib',
@@ -528,6 +573,29 @@ class ComposerStaticInit55fd7e706b28e60241dbd1efa3ecc396
             'Consolidation' => 
             array (
                 0 => __DIR__ . '/..' . '/drush/drush/lib',
+            ),
+        ),
+        'B' => 
+        array (
+            'Behat\\Transliterator' => 
+            array (
+                0 => __DIR__ . '/..' . '/behat/transliterator/src',
+            ),
+            'Behat\\Testwork' => 
+            array (
+                0 => __DIR__ . '/..' . '/behat/behat/src',
+            ),
+            'Behat\\MinkExtension' => 
+            array (
+                0 => __DIR__ . '/..' . '/behat/mink-extension/src',
+            ),
+            'Behat\\Gherkin' => 
+            array (
+                0 => __DIR__ . '/..' . '/behat/gherkin/src',
+            ),
+            'Behat\\Behat' => 
+            array (
+                0 => __DIR__ . '/..' . '/behat/behat/src',
             ),
         ),
     );
