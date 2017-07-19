@@ -1,0 +1,6 @@
+name: Ticket tracker
+type: module
+description: 'Ticket tracker UI for Government CIO'
+package: Other
+core: 8.x
+configure: ticket.form

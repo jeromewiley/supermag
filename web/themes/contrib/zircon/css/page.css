@@ -125,6 +125,24 @@ nav#main-menu .container-gcio ul.menu {
   background-color: rgba(255, 212, 70, 0.1);
   flex: 1; }
 
+div#block-zircon-content p a.button {
+  background-color: #6a6a5a;
+  border: 2px #555 solid;
+  font-size: 28px;
+  font-weight: 600;
+  padding: 10px 20px 10px 20px;
+  border-radius: 12px;
+  color: #fff;
+  font-family: 'Rajdhani', serif; }
+
+div#block-zircon-content p.button-par {
+  margin-top: 50px;
+  margin-bottom: 50px; }
+
+.views-field-field-sr-type {
+  margin-left: 20px;
+  margin-right: 20px; }
+
 .view .views-field {
   margin-bottom: 5px; }
 
