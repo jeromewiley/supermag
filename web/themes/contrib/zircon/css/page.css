@@ -1,4 +1,6 @@
 /* */
+/* #a67f00; #a62400; */
+/* #ffd446; */
 /*  */
 .box_shadow {
   box-shadow: 0 0 5px #ccc;
@@ -78,6 +80,9 @@ nav#main-menu .container-gcio ul.menu {
   nav#main-menu .container-gcio ul.menu {
     display: none; } }
 
+.page .container {
+  background-color: rgba(255, 212, 70, 0.1); }
+
 @media all and (min-width: 900px) {
   section.top-elements .container {
     display: flex; } }
@@ -86,8 +91,13 @@ nav#main-menu .container-gcio ul.menu {
   section.top-elements .container {
     display: block; } }
 
+.top-article figcaption, .top-video figcaption, .top-ad figcaption {
+  font-family: "Rajdhani", serif;
+  font-weight: 600;
+  font-size: 19px;
+  padding: 5px; }
+
 .top-article {
-  background-color: #f5f5dc;
   flex: 1; }
 
 @media all and (min-width: 1200px) {
@@ -109,11 +119,10 @@ nav#main-menu .container-gcio ul.menu {
     width: 100%; } }
 
 .top-video {
-  background-color: #f5f5dc;
   flex: 1; }
 
 .top-ad {
-  background-color: #f5f5dc;
+  background-color: rgba(255, 212, 70, 0.1);
   flex: 1; }
 
 .view .views-field {

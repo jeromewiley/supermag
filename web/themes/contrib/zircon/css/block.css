@@ -1,4 +1,6 @@
 /* */
+/* #a67f00; #a62400; */
+/* #ffd446; */
 /*  */
 .box_shadow, #main-menu .container, #slideshow .container, #featured .container, #main .container, #panel_first .container, #panel_second .container {
   box-shadow: 0 0 5px #ccc;
@@ -455,11 +457,13 @@
 
 .sidebar h2 {
   background-color: #555;
-  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#373a3d), to(#282a2c));
-  background: -webkit-linear-gradient(top, #373a3d, #282a2c);
-  background: -moz-linear-gradient(top, #373a3d, #282a2c);
-  background: -ms-linear-gradient(top, #373a3d, #282a2c);
-  background: -o-linear-gradient(top, #373a3d, #282a2c);
+  /* $dark_grey; */
+  /*
+        background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#373a3d), to(#282a2c));
+        background: -webkit-linear-gradient(top, #373a3d, #282a2c);
+        background: -moz-linear-gradient(top, #373a3d, #282a2c);
+        background: -ms-linear-gradient(top, #373a3d, #282a2c);
+        background: -o-linear-gradient(top, #373a3d, #282a2c); */
   color: #fff;
   margin: -15px -15px 15px -15px;
   padding: 10px 15px;
@@ -537,6 +541,8 @@
     list-style: none; }
     .sidebar ul.menu li a {
       display: block;
+      font-size: 15px;
+      font-weight: 700;
       padding: 5px 5px 5px 17px;
       position: relative; }
       .sidebar ul.menu li a:before {

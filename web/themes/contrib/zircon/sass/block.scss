@@ -601,12 +601,13 @@
         }
     }
     h2 {
-        background-color: $dark_grey;
+        background-color: $complementary; /* $dark_grey; */
+        /*
         background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#373a3d), to(#282a2c));
         background: -webkit-linear-gradient(top, #373a3d, #282a2c);
         background: -moz-linear-gradient(top, #373a3d, #282a2c);
         background: -ms-linear-gradient(top, #373a3d, #282a2c);
-        background: -o-linear-gradient(top, #373a3d, #282a2c);
+        background: -o-linear-gradient(top, #373a3d, #282a2c); */
         color: $white;
         margin: -15px -15px 15px -15px;
         padding: 10px 15px;
@@ -699,6 +700,8 @@
             list-style: none;
             a {
                 display: block;
+                font-size: 15px;
+                font-weight: 700;
                 padding: 5px 5px 5px 17px;
                 position: relative;
                 &:before {

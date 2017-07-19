@@ -54,6 +54,10 @@
         }
     }
 
+    .page .container {
+        background-color: $complementary-faded;
+    }
+
     @media all and (min-width: 900px) {
         section.top-elements .container {
             display: flex;
@@ -66,8 +70,15 @@
         }        
     }
 
+    .top-article figcaption, .top-video figcaption, .top-ad figcaption {
+        font-family: "Rajdhani", serif;
+        font-weight: 600;
+        font-size: 19px;
+        padding: 5px;
+    }
+
     .top-article {
-        background-color: #f5f5dc;
+        // background-color: $complementary-faded;
         flex: 1;
     }
 
@@ -99,12 +110,12 @@
     }
 
     .top-video {
-        background-color: #f5f5dc;
+        // background-color: $complementary-faded;
         flex: 1;
     }
 
     .top-ad {
-        background-color: #f5f5dc;
+        background-color: $complementary-faded;
         flex: 1;
     }
     

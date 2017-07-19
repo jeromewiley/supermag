@@ -2,4 +2,4 @@ web/sites/default/settings*
 web/.htaccess
 web/sites/default/files/*
 web/sites/default/tmp/*
-
+web/sites/default/settings.php
