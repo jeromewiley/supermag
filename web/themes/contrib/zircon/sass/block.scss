@@ -499,6 +499,16 @@
         @extend .box_shadow;
         @extend .border_radius;
         .content {
+            #block-views-block-tickets-block-1 {
+                .views-row {
+                    margin-bottom: 0px;
+                }
+            }
+            #block-views-block-tickets-er-block-1 {
+                .views-row {
+                    margin-bottom: 0px;
+                }
+            }
             .node--view-mode-teaser {
                 .field-type-image {
                     float: left;

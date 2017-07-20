@@ -393,6 +393,10 @@
   #main .container {
     background: #fff;
     padding: 15px; }
+    #main .container .content #block-views-block-tickets-block-1 .views-row {
+      margin-bottom: 0px; }
+    #main .container .content #block-views-block-tickets-er-block-1 .views-row {
+      margin-bottom: 0px; }
     #main .container .content .node--view-mode-teaser .field-type-image {
       float: left;
       margin: 5px 15px 15px 0; }

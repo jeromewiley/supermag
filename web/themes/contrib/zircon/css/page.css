@@ -138,10 +138,14 @@ div#block-zircon-content p a.button {
 #block-views-block-tickets-block-1 {
   padding: 10px;
   background-color: #ffe4e1; }
+  #block-views-block-tickets-block-1 div div div div {
+    margin-bottom: 0px; }
 
 #block-views-block-tickets-er-block-1 {
   padding: 10px;
   background-color: #dfffa5; }
+  #block-views-block-tickets-er-block-1 .views-row {
+    margin-bottom: 0px; }
 
 div#block-zircon-content p.button-par {
   margin-top: 0px;
