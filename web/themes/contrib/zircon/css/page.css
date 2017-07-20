@@ -135,6 +135,14 @@ div#block-zircon-content p a.button {
   color: #fef1b5;
   font-family: 'Mirza', serif; }
 
+#block-views-block-tickets-block-1 {
+  padding: 10px;
+  background-color: #ffe4e1; }
+
+#block-views-block-tickets-er-block-1 {
+  padding: 10px;
+  background-color: #dfffa5; }
+
 div#block-zircon-content p.button-par {
   margin-top: 50px;
   margin-bottom: 50px; }
