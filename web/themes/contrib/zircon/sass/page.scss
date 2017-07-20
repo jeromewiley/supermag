@@ -133,16 +133,18 @@
     #block-views-block-tickets-block-1 {
         padding: 10px;
         background-color: #ffe4e1;
-        div div div div {
-            margin-bottom: 0px;
+        h2 {
+            border-bottom: 5px #fff dashed;
+            padding-bottom: 10px;
         }
     }
 
     #block-views-block-tickets-er-block-1 {
         padding: 10px;
         background-color: #dfffa5;
-        .views-row {
-            margin-bottom: 0px;
+        h2 {
+            border-bottom: 5px #fff dashed;
+            padding-bottom: 10px;
         }
     }
 
