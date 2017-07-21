@@ -63,7 +63,7 @@
   float: left; }
 
 #header .search-block-form {
-  float: right;
+  float: left;
   background: #fff;
   border: 1px solid #E7E8E9;
   border-radius: 3px;
@@ -73,7 +73,8 @@
   padding: 5px 5px 0 10px;
   width: 243px;
   position: relative;
-  margin-top: 4px; }
+  margin-top: -24px;
+  margin-left: 200px; }
   #header .search-block-form .form-item {
     margin: 0; }
     #header .search-block-form .form-item .form-search {
