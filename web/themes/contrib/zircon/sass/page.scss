@@ -48,6 +48,16 @@
         }
     }
 
+    #block-views-block-front-page-article-block-block-1 .views-field-title span a {
+        font-size: 18px;
+        font-weight: 900;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    #block-views-block-front-page-article-block-block-1 div.views-row.clearfix.row-1 div.views-col.col-1 {
+        padding: 5px;
+    }
+
     @media all and (max-width: 991px) {
         nav#main-menu .container-gcio ul.menu {
             display: none;
