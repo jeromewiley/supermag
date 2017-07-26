@@ -23,6 +23,7 @@
         "drupal/console": "~1.0",
         "drupal/core": "~8.0",
         "drupal/fb_instant_articles": "2.x-dev",
+        "drupal/metatag": "^1.1",
         "drupal/video_embed_field": "^1.5",
         "drush/drush": "~8.0",
         "webflo/drupal-finder": "^0.3.0",
