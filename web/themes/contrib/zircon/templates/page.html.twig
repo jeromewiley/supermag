@@ -86,23 +86,37 @@
   <section id="top-three" class="top-elements">
     <div class="container">
       
-      <div class="top-article">
+      
+      {% if page.featured_article_left %}
+        <div class="top-article">
+        {{ page.featured_article_left }}
+        </div>
+
+        <!--
         <figure>
           <img src="themes/contrib/zircon/images/cio-meeting.jpg">
           <figcaption>
             DATA Act Introduced
           </figcaption>
         </figure>
-      </div>
+        -->
 
-      <div class="top-video">
+      {% endif %}
+      {% if page.featured_video_middle %}
+        <div class="top-video">
+        {{ page.featured_video_middle }}
+        </div>
+      {% endif %}
+  
+      <!--
         <figure>
-          <img src="themes/contrib/zircon/images/top-article.png">
-          <figcaption>
-            Interview with CIO Smith
-          </figcaption>
-        </figure>
-      </div>
+            <img src="themes/contrib/zircon/images/top-article.png">
+            <figcaption>
+              Interview with CIOO Smith
+            </figcaption>
+          </figure>
+        </div>
+      -->
       
       <div class="top-ad">
         <figure>

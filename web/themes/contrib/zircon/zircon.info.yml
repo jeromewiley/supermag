@@ -19,6 +19,9 @@ regions:
   messages: Messages
   featured: Featured
   breadcrumb: Breadcrumb
+  featured_article_left: 'Featured article left'
+  featured_video_middle: 'Featured video middle'
+  advertisement_right: 'Featured ad right'
   content: Content
   sidebar_first: 'Sidebar first'
   sidebar_second: 'Sidebar second'
