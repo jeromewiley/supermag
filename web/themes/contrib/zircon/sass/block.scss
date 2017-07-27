@@ -497,8 +497,8 @@
     .container {
         background: #fff;
         padding: 15px;
-        @extend .box_shadow;
-        @extend .border_radius;
+        /* @extend .box_shadow; */
+        /* @extend .border_radius; */
         .content {
             #block-views-block-tickets-block-1 {
                 .views-row {
