@@ -88,7 +88,14 @@ nav#main-menu .container-gcio ul.menu {
 #block-views-block-front-page-article-block-block-1 div.views-row.clearfix div.views-col {
   padding: 5px 10px 5px 10px; }
 
-#block-views-block-front-page-article-block-block-1-2.views-field-title {
+#block-views-block-front-page-article-block-block-1-2 .views-field-title {
+  margin-bottom: 10px;
+  min-height: 70px; }
+
+#block-views-block-front-page-article-block-block-1-2 .views-field-title {
+  margin-bottom: 100px; }
+
+#block-views-block-front-page-article-block-block-1 .views-field-title {
   margin-bottom: 10px;
   min-height: 70px; }
 
@@ -99,10 +106,6 @@ nav#main-menu .container-gcio ul.menu {
 #block-views-block-front-page-article-block-block-1-2 .views-field.views-field-field-author {
   font-weight: 700;
   color: darkred; }
-
-#block-views-block-front-page-article-block-block-1.views-field-title {
-  margin-bottom: 10px;
-  min-height: 70px; }
 
 #block-views-block-front-page-article-block-block-1-2 .views-field-title span a {
   font-size: 21px;
