@@ -1,0 +1,14 @@
+{#
+/**
+ * Adding the word 'by' in front of the author's name
+ */
+#}
+
+
+{% if field_author %}
+    <div{{ attributes.addClass(classes, 'field__items') }}>
+      {% for item in items %}
+        <div{{ item.attributes.addClass('field__item') }}>by {{ item.content }}</div>
+      {% endfor %}
+    </div>
+{% endif %}

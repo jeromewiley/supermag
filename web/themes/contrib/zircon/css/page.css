@@ -90,6 +90,14 @@ nav#main-menu .container-gcio ul.menu {
   margin-bottom: 10px;
   min-height: 70px; }
 
+#block-views-block-front-page-article-block-block-1 .views-field.views-field-field-author {
+  font-weight: 700;
+  color: darkred; }
+
+#block-views-block-front-page-article-block-block-1-2 .views-field.views-field-field-author {
+  font-weight: 700;
+  color: darkred; }
+
 #block-views-block-front-page-article-block-block-1.views-field-title {
   margin-bottom: 10px;
   min-height: 70px; }
