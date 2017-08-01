@@ -606,7 +606,7 @@
         padding: 15px;
         margin-bottom: 15px;
         @extend .border_radius;
-        border: $border_grey;
+        /* border: $border_grey; */
         &:last-child {
             margin-bottom: 0;
         }

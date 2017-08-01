@@ -83,6 +83,8 @@ class ComposerStaticInit55fd7e706b28e60241dbd1efa3ecc396
         ),
         'R' => 
         array (
+            'Relaxed\\Replicator\\' => 19,
+            'Relaxed\\LCA\\' => 12,
             'RedBeanPHP\\' => 11,
         ),
         'P' => 
@@ -106,10 +108,12 @@ class ComposerStaticInit55fd7e706b28e60241dbd1efa3ecc396
             'GuzzleHttp\\Psr7\\' => 16,
             'GuzzleHttp\\Promise\\' => 19,
             'GuzzleHttp\\' => 11,
+            'Graphp\\Algorithms\\' => 18,
             'Goutte\\' => 7,
         ),
         'F' => 
         array (
+            'Fhaculty\\Graph\\' => 15,
             'Facebook\\InstantArticles\\' => 25,
             'Facebook\\' => 9,
         ),
@@ -304,6 +308,14 @@ class ComposerStaticInit55fd7e706b28e60241dbd1efa3ecc396
         array (
             0 => __DIR__ . '/..' . '/stecman/symfony-console-completion/src',
         ),
+        'Relaxed\\Replicator\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/relaxedws/replicator/src',
+        ),
+        'Relaxed\\LCA\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/relaxedws/lca/src',
+        ),
         'RedBeanPHP\\' => 
         array (
             0 => __DIR__ . '/..' . '/gabordemooij/redbean/RedBeanPHP',
@@ -348,9 +360,17 @@ class ComposerStaticInit55fd7e706b28e60241dbd1efa3ecc396
         array (
             0 => __DIR__ . '/..' . '/guzzlehttp/guzzle/src',
         ),
+        'Graphp\\Algorithms\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/graphp/algorithms/src',
+        ),
         'Goutte\\' => 
         array (
             0 => __DIR__ . '/..' . '/fabpot/goutte/Goutte',
+        ),
+        'Fhaculty\\Graph\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/clue/graph/src',
         ),
         'Facebook\\InstantArticles\\' => 
         array (
@@ -538,6 +558,10 @@ class ComposerStaticInit55fd7e706b28e60241dbd1efa3ecc396
             'Drupal\\Component' => 
             array (
                 0 => __DIR__ . '/..' . '/drupal/drupal-driver/src',
+            ),
+            'Doctrine\\CouchDB' => 
+            array (
+                0 => __DIR__ . '/..' . '/relaxedws/couchdb/lib',
             ),
             'Doctrine\\Common\\Lexer\\' => 
             array (

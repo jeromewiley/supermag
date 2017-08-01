@@ -458,7 +458,7 @@
 .sidebar .block {
   padding: 15px;
   margin-bottom: 15px;
-  border: 1px solid #dadada; }
+  /* border: $border_grey; */ }
   .sidebar .block:last-child {
     margin-bottom: 0; }
 
