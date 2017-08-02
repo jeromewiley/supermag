@@ -1,0 +1,17 @@
+uuid: 22b96fcb-e59c-46c8-ab77-61a1cdd2a983
+langcode: en
+status: true
+dependencies: {  }
+id: node__story
+label: 'Content: Story'
+tags:
+  description: 'Description goes here'
+  title: '[current-page: title]'
+  twitter_cards_creator: '@gciomag'
+  twitter_cards_creator_id: '874323733330178053'
+  twitter_cards_description: 'Description goes here'
+  twitter_cards_image: '[node:field_featured_image]'
+  twitter_cards_site: '@gciomag'
+  twitter_cards_site_id: '874323733330178053'
+  twitter_cards_title: '[current-page:title]'
+  twitter_cards_type: summary_large_image

@@ -1,0 +1,31 @@
+uuid: b5005108-e1d8-4d93-b6a7-934921c82e6d
+langcode: en
+status: true
+dependencies: {  }
+id: reporter
+label: Reporter
+weight: 4
+is_admin: null
+permissions:
+  - 'access content overview'
+  - 'access files overview'
+  - 'access user contact forms'
+  - 'administer nodes'
+  - 'create article content'
+  - 'create site_request content'
+  - 'create story content'
+  - 'delete any site_request content'
+  - 'delete own article content'
+  - 'delete own site_request content'
+  - 'delete own story content'
+  - 'delete story revisions'
+  - 'edit own article content'
+  - 'edit own site_request content'
+  - 'edit own story content'
+  - 'edit terms in tags'
+  - 'revert story revisions'
+  - 'use advanced search'
+  - 'use text format full_html'
+  - 'use text format restricted_html'
+  - 'view article revisions'
+  - 'view story revisions'

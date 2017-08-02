@@ -1,0 +1,14 @@
+uuid: 13efe040-d4c5-4ef7-8efa-ec611279639d
+langcode: en
+status: true
+dependencies: {  }
+name: article_thumbnail
+label: 'Article thumbnail 350X197'
+effects:
+  56b91ee9-5bbf-4863-9fd2-08e8beda8385:
+    uuid: 56b91ee9-5bbf-4863-9fd2-08e8beda8385
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 350
+      height: 197

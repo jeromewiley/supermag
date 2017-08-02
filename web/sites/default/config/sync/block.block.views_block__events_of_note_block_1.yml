@@ -1,0 +1,30 @@
+uuid: a6d24eb1-3c63-4806-841c-5b47745442cb
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.events_of_note
+  module:
+    - system
+    - views
+  theme:
+    - zircon
+id: views_block__events_of_note_block_1
+theme: zircon
+region: sidebar_second
+weight: 0
+provider: null
+plugin: 'views_block:events_of_note-block_1'
+settings:
+  id: 'views_block:events_of_note-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

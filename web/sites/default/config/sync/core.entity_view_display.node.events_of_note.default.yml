@@ -1,0 +1,40 @@
+uuid: f4e600eb-41ab-41d9-9367-e6d5bb36f018
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.events_of_note.body
+    - field.field.node.events_of_note.field_event_url
+    - node.type.events_of_note
+  module:
+    - link
+    - text
+    - user
+id: node.events_of_note.default
+targetEntityType: node
+bundle: events_of_note
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_event_url:
+    weight: 102
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden: {  }

@@ -1,0 +1,24 @@
+uuid: 0fc2e7db-618d-449b-9a62-0c6c7ec1d13d
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.magazine
+  module:
+    - system
+  theme:
+    - zircon
+id: magazine
+theme: zircon
+region: sidebar_first
+weight: -7
+provider: null
+plugin: 'system_menu_block:magazine'
+settings:
+  id: 'system_menu_block:magazine'
+  label: Magazine
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+visibility: {  }

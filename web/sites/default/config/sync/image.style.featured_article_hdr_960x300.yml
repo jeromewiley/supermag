@@ -1,0 +1,14 @@
+uuid: df5c3b95-1b9a-4604-8024-79e35029139f
+langcode: en
+status: true
+dependencies: {  }
+name: featured_article_hdr_960x300
+label: 'Featured article hdr 960x300'
+effects:
+  9f6a2c6d-babf-4450-90f1-86cac463a5c0:
+    uuid: 9f6a2c6d-babf-4450-90f1-86cac463a5c0
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 960
+      height: 300

@@ -1,0 +1,19 @@
+uuid: 9e33bc48-c76d-4653-87ba-f799d792caf9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_title
+    - node.type.story
+id: node.story.field_title
+field_name: field_title
+entity_type: node
+bundle: story
+label: Title
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

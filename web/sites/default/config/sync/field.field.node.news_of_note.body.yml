@@ -1,0 +1,22 @@
+uuid: 666e26c5-9bb5-4a5c-b0c6-a8896f1eea9a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.news_of_note
+  module:
+    - text
+id: node.news_of_note.body
+field_name: body
+entity_type: node
+bundle: news_of_note
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

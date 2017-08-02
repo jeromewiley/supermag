@@ -1,0 +1,28 @@
+uuid: d2ccbc27-51e7-4181-a70c-e5f89a38e6ed
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.reports_of_note.body
+    - node.type.reports_of_note
+  module:
+    - text
+    - user
+id: node.reports_of_note.teaser
+targetEntityType: node
+bundle: reports_of_note
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden: {  }

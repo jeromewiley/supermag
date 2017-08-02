@@ -1,0 +1,23 @@
+uuid: f5ebdb51-f0b7-4691-b710-6d9c0e03871d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_news_url
+    - node.type.news_of_note
+  module:
+    - link
+id: node.news_of_note.field_news_url
+field_name: field_news_url
+entity_type: node
+bundle: news_of_note
+label: 'news url'
+description: 'URL for news item of interest to federal C-level IT community.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 1
+field_type: link

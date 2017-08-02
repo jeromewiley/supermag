@@ -1,0 +1,30 @@
+uuid: 1658f84d-9e26-4d88-819e-24f0c8c6dd24
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.center_video
+  module:
+    - system
+    - views
+  theme:
+    - zircon
+id: views_block__center_video_block_1
+theme: zircon
+region: featured_video_middle
+weight: 0
+provider: null
+plugin: 'views_block:center_video-block_1'
+settings:
+  id: 'views_block:center_video-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

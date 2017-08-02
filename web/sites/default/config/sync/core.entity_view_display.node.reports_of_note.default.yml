@@ -1,0 +1,40 @@
+uuid: 37687ded-e545-4c52-9830-77c411dd3206
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.reports_of_note.body
+    - field.field.node.reports_of_note.field_report_url
+    - node.type.reports_of_note
+  module:
+    - link
+    - text
+    - user
+id: node.reports_of_note.default
+targetEntityType: node
+bundle: reports_of_note
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_report_url:
+    weight: 102
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden: {  }

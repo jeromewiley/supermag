@@ -1,0 +1,9 @@
+uuid: 7e537e0b-7c4d-4286-9c29-729d25b53acb
+langcode: en
+status: true
+dependencies: {  }
+name: Categories
+vid: categories
+description: 'Elements should be placed into these major categories.'
+hierarchy: 0
+weight: 0

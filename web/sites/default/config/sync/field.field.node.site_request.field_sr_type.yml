@@ -1,0 +1,28 @@
+uuid: 7aa43fcd-02ef-4dc9-94f3-86965ccb42a5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_sr_type
+    - node.type.site_request
+    - taxonomy.vocabulary.tags
+id: node.site_request.field_sr_type
+field_name: field_sr_type
+entity_type: node
+bundle: site_request
+label: 'SR Type'
+description: 'Choose between bug fix (b) and enhancement request (e).'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      tags: tags
+    sort:
+      field: _none
+    auto_create: true
+    auto_create_bundle: ''
+field_type: entity_reference

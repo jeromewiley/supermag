@@ -1,0 +1,18 @@
+uuid: 896a29ac-104b-454f-a1d0-c811429ac919
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - magazine
+    parent: 'magazine:'
+name: 'Site request'
+type: site_request
+description: 'Describe the bug or enhancement request you''d like to see on the site.'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

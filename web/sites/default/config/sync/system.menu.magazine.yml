@@ -1,0 +1,8 @@
+uuid: df09152c-bcd1-4de1-aae3-c3ad95e75b16
+langcode: en
+status: true
+dependencies: {  }
+id: magazine
+label: Magazine
+description: 'Links pertaining to magazine internals'
+locked: false

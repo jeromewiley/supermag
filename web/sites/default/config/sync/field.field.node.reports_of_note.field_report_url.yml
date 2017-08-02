@@ -1,0 +1,23 @@
+uuid: 7570e63b-7ebb-46b3-be05-c90dde6b5594
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_report_url
+    - node.type.reports_of_note
+  module:
+    - link
+id: node.reports_of_note.field_report_url
+field_name: field_report_url
+entity_type: node
+bundle: reports_of_note
+label: 'report url'
+description: 'URL for report of interest to federal C-level IT community.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 1
+field_type: link

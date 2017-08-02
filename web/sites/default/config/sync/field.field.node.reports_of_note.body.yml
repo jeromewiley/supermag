@@ -1,0 +1,22 @@
+uuid: 52b5d7ad-e0e1-4934-adc6-5d31cacdea90
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.reports_of_note
+  module:
+    - text
+id: node.reports_of_note.body
+field_name: body
+entity_type: node
+bundle: reports_of_note
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

@@ -1,0 +1,18 @@
+uuid: b3df83be-4da3-46be-890c-841ff5e633c6
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: 'Reports of note'
+type: reports_of_note
+description: 'Reports of interest to federal C-level IT community.'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

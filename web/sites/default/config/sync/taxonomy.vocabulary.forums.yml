@@ -1,0 +1,9 @@
+uuid: eac2d656-4cd0-417a-bc07-81b20b3efb8c
+langcode: en
+status: true
+dependencies: {  }
+name: Forums
+vid: forums
+description: 'Allows collaboration among members of the community.'
+hierarchy: 0
+weight: 0

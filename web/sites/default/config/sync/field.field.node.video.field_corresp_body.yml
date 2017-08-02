@@ -1,0 +1,22 @@
+uuid: cffbe57c-32c3-43dc-9673-50d9801266b0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_corresp_body
+    - node.type.video
+  module:
+    - text
+id: node.video.field_corresp_body
+field_name: field_corresp_body
+entity_type: node
+bundle: video
+label: 'corresp body'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary
