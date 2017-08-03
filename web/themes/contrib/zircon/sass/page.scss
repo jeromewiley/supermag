@@ -86,8 +86,15 @@
     }
 
     #block-zircon-content {
+    }
+
+    #block-zircon-content > article > div > div > p.montage {
         display: flex;
-        float: left;
+        iframe {
+            flex: 1;
+            float: left;
+            display: flex;
+        }
     }
 
     #block-views-block-front-page-article-block-block-1 .views-field-title span a {
@@ -269,7 +276,7 @@
         padding: 7px 20px 3px 20px; 
         border-radius: 12px;
         color: #fef1b5;
-        font-family: 'Contrail One', serif;
+        font-family: 'Exo', sans-serif;
     }
 
     #block-views-block-tickets-block-1 {

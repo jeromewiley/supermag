@@ -109,9 +109,12 @@ nav#main-menu .container-gcio ul.menu {
   width: 38%;
   padding-left: 5px; }
 
-#block-zircon-content {
-  display: flex;
-  float: left; }
+#block-zircon-content > article > div > div > p.montage {
+  display: flex; }
+  #block-zircon-content > article > div > div > p.montage iframe {
+    flex: 1;
+    float: left;
+    display: flex; }
 
 #block-views-block-front-page-article-block-block-1 .views-field-title span a {
   font-size: 30px;
@@ -246,7 +249,7 @@ div#block-zircon-content p a.button {
   padding: 7px 20px 3px 20px;
   border-radius: 12px;
   color: #fef1b5;
-  font-family: 'Contrail One', serif; }
+  font-family: 'Exo', sans-serif; }
 
 #block-views-block-tickets-block-1 {
   padding: 10px;
