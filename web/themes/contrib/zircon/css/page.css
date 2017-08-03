@@ -45,7 +45,8 @@ h1.page-title {
 
 .liner-top {
   width: 100%;
-  border-bottom: 4px solid #00adee;
+  border-bottom: 4px solid #000000;
+  /* #00adee; */
   /* #1b88be; */
   margin-top: 5px; }
 
@@ -71,7 +72,8 @@ h1.page-title {
 nav#main-menu .container-gcio ul.menu {
   display: flex;
   margin-top: 0px;
-  background-color: #00adee;
+  background-color: #000000;
+  /* #00adee; */
   /* #1b88be; */
   border-bottom-left-radius: 1em;
   border-bottom-right-radius: 2em; }
