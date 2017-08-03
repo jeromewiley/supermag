@@ -464,6 +464,10 @@
   .sidebar .block:last-child {
     margin-bottom: 0; }
 
+.sidebar #block-views-block-left-column-headlines-block-1 > div > div > div > div > div > span > a {
+  font-family: 'Noto Serif', serif;
+  font-size: 14px; }
+
 .sidebar #block-views-block-events-of-note-block-1 .views-row {
   padding-top: 0px;
   margin-bottom: 0px; }
