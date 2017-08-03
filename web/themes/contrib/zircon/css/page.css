@@ -97,7 +97,7 @@ nav#main-menu .container-gcio ul.menu {
   flex: 1;
   flex-direction: column;
   float: left;
-  width: 62%;
+  width: 61%;
   padding-right: 5px;
   border-right: 1px #ccc solid;
   margin-right: 5px; }
@@ -106,7 +106,8 @@ nav#main-menu .container-gcio ul.menu {
   flex: 1;
   flex-direction: column;
   float: left;
-  width: 38%; }
+  width: 38%;
+  padding-left: 5px; }
 
 #block-zircon-content {
   display: flex;
