@@ -114,7 +114,8 @@ nav#main-menu .container-gcio ul.menu {
   #block-zircon-content > article > div > div > p.montage iframe {
     flex: 1;
     float: left;
-    display: flex; }
+    display: flex;
+    margin: 5px; }
 
 #block-views-block-front-page-article-block-block-1 .views-field-title span a {
   font-size: 30px;
