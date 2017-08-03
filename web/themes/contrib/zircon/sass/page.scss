@@ -72,6 +72,9 @@
         flex-direction: column;
         float: left;
         width: 62%;
+        padding-right: 5px;
+        border-right: 1px #ccc solid;
+        margin-right: 5px;
     }
 
     #block-views-block-video-column-block-1 {
@@ -82,6 +85,8 @@
     }
 
     #block-zircon-content {
+        display: flex;
+        float: left;
     }
 
     #block-views-block-front-page-article-block-block-1 .views-field-title span a {
@@ -144,16 +149,16 @@
     }
 
     #block-views-block-featured-article-top-left-block-1 .views-field-title span a {
-        font-family: 'Montserrat', sans-serif;
+        font-family: 'Exo', sans-serif;
         font-size: 15px;
-        font-weight: 900;
+        font-weight: 400;
         text-transform: uppercase;
     }
 
     #block-views-block-center-video-block-1 .views-field-title span a {
-        font-family: 'Montserrat', sans-serif;
+        font-family: 'Exo', sans-serif;
         font-size: 15px;
-        font-weight: 900;
+        font-weight: 400;
         text-transform: uppercase;        
     }
 
