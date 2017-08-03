@@ -90,13 +90,23 @@ nav#main-menu .container-gcio ul.menu {
 
 #main > div > div > div {
   width: 55%;
-  display: flex; }
+  display: flex;
+  flex-direction: row; }
 
 #block-views-block-front-page-article-block-block-1-2 {
-  flex: 1; }
+  flex: 1;
+  flex-direction: column;
+  float: left;
+  width: 62%; }
 
 #block-views-block-video-column-block-1 {
-  flex: 1; }
+  flex: 1;
+  flex-direction: column;
+  float: left;
+  width: 38%; }
+
+#block-zircon-content {
+  display: none; }
 
 #block-views-block-front-page-article-block-block-1 .views-field-title span a {
   font-size: 30px;
