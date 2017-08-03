@@ -89,7 +89,14 @@ nav#main-menu .container-gcio ul.menu {
       color: #fff; }
 
 #main > div > div > div {
-  width: 55%; }
+  width: 55%;
+  display: flex; }
+
+#block-views-block-front-page-article-block-block-1-2 {
+  flex: 1; }
+
+#block-views-block-video-column-block-1 {
+  flex: 1; }
 
 #block-views-block-front-page-article-block-block-1 .views-field-title span a {
   font-size: 30px;
