@@ -216,10 +216,18 @@ nav#main-menu .container-gcio ul.menu {
     display: block; } }
 
 .top-article figcaption, .top-video figcaption, .top-ad figcaption {
-  font-family: "Exo", serif;
+  font-family: "Exo", sans-serif;
   font-weight: 600;
   font-size: 15px;
   padding: 5px; }
+
+#block-views-block-featured-article-top-left-block-1 .views-field-field-author {
+  font-family: "Exo", sans-serif;
+  font-size: 12px; }
+
+#block-views-block-center-video-block-1 .views-field-field-running-time {
+  font-family: "Exo", sans-serif;
+  font-size: 12px; }
 
 .top-article {
   flex: 1; }

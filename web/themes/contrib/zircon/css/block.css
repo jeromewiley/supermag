@@ -468,9 +468,13 @@
   font-family: 'Noto Serif', serif;
   font-size: 14px; }
 
+.sidebar #block-views-block-left-column-headlines-block-1 .views-row {
+  padding-top: 5px;
+  margin-bottom: 10px; }
+
 .sidebar #block-views-block-events-of-note-block-1 .views-row {
   padding-top: 0px;
-  margin-bottom: 0px; }
+  margin-bottom: 10px; }
 
 .sidebar h2 {
   background-color: #756A62;
