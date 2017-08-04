@@ -464,9 +464,14 @@
   .sidebar .block:last-child {
     margin-bottom: 0; }
 
-.sidebar #block-views-block-left-column-headlines-block-1 > div > div > div > div > div > span > a {
+.sidebar #block-views-block-left-column-headlines-block-1 span a {
   font-family: 'Noto Serif', serif;
-  font-size: 14px; }
+  font-size: 14px;
+  color: #5E4932; }
+
+.sidebar #block-views-block-left-column-headlines-block-1 .views-row:nth-child(odd) span a {
+  font-style: italic;
+  color: #514875; }
 
 .sidebar #block-views-block-left-column-headlines-block-1 .views-row {
   padding-top: 5px;
