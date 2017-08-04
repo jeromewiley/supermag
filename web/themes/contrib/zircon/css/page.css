@@ -120,6 +120,10 @@ nav#main-menu .container-gcio ul.menu {
 #block-views-block-vftt-guests-block-1 div.views-field.views-field-field-first-name {
   font-weight: 900; }
 
+#block-views-block-vftt-guests-block-1 {
+  padding-right: 20px;
+  padding-left: 20px; }
+
 #block-views-block-front-page-article-block-block-1 .views-field-title span a {
   font-size: 30px;
   font-weight: 400;
